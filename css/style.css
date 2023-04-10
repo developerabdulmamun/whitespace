@@ -1,0 +1,89 @@
+/* Common CSS Start */
+:root{
+    --inter: 'Inter', sans-serif;
+    --dm-sans: 'DM Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,a,p,i{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* Common CSS End */
+/* Header Section Start */
+header{
+    height: 100vh;
+    background: #043873;
+    position: relative;
+}
+/* Navigation Part Start */
+nav{
+    position: fixed;
+    z-index: 100;
+}
+nav .nav_logo{
+    width: 191px;
+    height: 34px;
+}
+nav .nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+nav .nav_menu li a{
+    font-family: var(--dm-sans);
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+nav .nav_menu .nav_btn ul{
+    display: flex;
+    gap: 24px;
+    margin-left: 28px;
+}
+nav .nav_menu .nav_btn .login_btn a{
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #043873;
+    padding: 18.5px 40px !important;
+    background: #FFE492;
+    border-radius: 8px;
+}
+nav .nav_menu .nav_btn .try_btn a{
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 18.5px 44px !important;
+    background: #4F9CF9;
+    border-radius: 8px;
+}
+nav .nav_menu .nav_btn .try_btn a i{
+    margin-left: 10px !important;
+}
+/* Navigation Part End */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
